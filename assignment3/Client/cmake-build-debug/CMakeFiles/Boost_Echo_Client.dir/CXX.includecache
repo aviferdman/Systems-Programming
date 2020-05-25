@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/IOThread.h
+mutex
+-
+queue
+-
+connectionHandler.h
+../include/connectionHandler.h
+
+../include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/users/studs/bsc/2020/skidanov/Downloads/Boost_Echo_Clientv3/Boost_Echo_Client/src/IOThread.cpp
+thread
+-
+IOThread.h
+/users/studs/bsc/2020/skidanov/Downloads/Boost_Echo_Clientv3/Boost_Echo_Client/src/IOThread.h
+
